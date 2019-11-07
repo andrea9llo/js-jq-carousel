@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole css */
+.wrap{
+  padding-top: 80px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.prev,.next{
+  font-size: 32px;
+  color: blue;
+  cursor: pointer;
+}
+
+.immagini{
+  width: 80%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.immagini li img{
+  width: 100%;
+  display: none;
+}
+
+.immagini li.active img{
+  display: inline-block;
+}
+
+.carousel{
+  text-align: center;
+}
+.carousel i {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.carousel i.active{
+  color: blue;
+}
